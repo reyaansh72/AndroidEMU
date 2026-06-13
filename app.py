@@ -18,23 +18,33 @@ else:
     ZipUtil.unzip("Emu.zip")
     ConsoleUtil.slow_print("Installed Emulator!")
 
-# Define official Google repository images (x86_64 architecture for high performance)
-# Updated, verified Google Repository URLs (64-bit Architecture)
-# Verified direct links from the official Google SDK index
-# Verified direct links from the official Google SDK index split by OS flavor
-# Verified direct links from the official Google SDK index
 ANDROID_VERSIONS = {
     "1": {
-        "name": "Android 10 (API 29) - Q",
-        "url": "https://dl.google.com/android/repository/sys-img/android/x86_64-29_r07-linux.zip",
-        "folder": "android-29"
+        "name": "Android 7.0 (API 24) - Nougat",
+        "url": "https://dl.google.com/android/repository/sys-img/android/x86_64-24_r08.zip",
+        "folder": "android-24"
     },
     "2": {
+        "name": "Android 8.0 (API 26) - Oreo",
+        "url": "https://dl.google.com/android/repository/sys-img/android/x86_64-26_r01.zip",
+        "folder": "android-26"
+    },
+    "3": {
+        "name": "Android 9.0 (API 28) - Pie",
+        "url": "https://dl.google.com/android/repository/sys-img/android/x86_64-28_r04.zip",
+        "folder": "android-28"
+    },
+    "4": {
+        "name": "Android 10 (API 29) - Q",
+        "url": "https://dl.google.com/android/repository/sys-img/android/x86_64-29_r07.zip",
+        "folder": "android-29"
+    },
+    "5": {
         "name": "Android 11 (API 30) - R",
         "url": "https://dl.google.com/android/repository/sys-img/google_apis/x86_64-30_r11.zip",
         "folder": "android-30"
     },
-    "3": {
+    "6": {
         "name": "Android 12 (API 31) - S",
         "url": "https://dl.google.com/android/repository/sys-img/android/x86_64-31_r03.zip",
         "folder": "android-31"
