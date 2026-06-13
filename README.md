@@ -70,7 +70,7 @@ AndroidEMU/
 **1. Clone the repository**
 
 ```powershell
-git clone https://github.com/your-username/AndroidEMU.git
+git clone https://github.com/reyaansh72/AndroidEMU.git
 cd AndroidEMU
 ```
 
