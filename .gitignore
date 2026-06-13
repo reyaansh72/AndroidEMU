@@ -1,0 +1,16 @@
+# Archives
+Emu.zip
+*.zip
+
+# Folders
+emulator/
+emu_home/
+platform-tools/
+platforms/
+android-29/
+android-30/
+android-31/
+
+# Python artifacts
+__pycache__/
+toolkit/__pycache__/
